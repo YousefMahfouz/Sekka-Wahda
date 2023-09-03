@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9f2709f0c4dd4cdcba1774f3e2bb2266" Name="Diagram1" ZoomLevel="99">
+        <EntityTypeShape EntityType="SECURITY_DBModel.UserMaster" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="SECURITY_DBModel.Reservation" Width="1.5" PointX="7.25" PointY="2.875" />
+        <AssociationConnector Association="SECURITY_DBModel.FK__Reservati__Trave__6383C8BA" />
+        <EntityTypeShape EntityType="SECURITY_DBModel.trip" Width="1.5" PointX="3.5" PointY="0.5" />
+        <AssociationConnector Association="SECURITY_DBModel.FK__trip__DriverId__60A75C0F" />
+        <EntityTypeShape EntityType="SECURITY_DBModel.Car" Width="1.5" PointX="4.75" PointY="4.5" />
+        <AssociationConnector Association="SECURITY_DBModel.FK__Car__UserId__48CFD27E" />
+        <EntityTypeShape EntityType="SECURITY_DBModel.Rating" Width="1.5" PointX="3" PointY="8" />
+        <AssociationConnector Association="SECURITY_DBModel.FK__Rating__Travelle__619B8048" />
+        <EntityTypeShape EntityType="SECURITY_DBModel.notification_" Width="1.5" PointX="3" PointY="11.25" />
+        <AssociationConnector Association="SECURITY_DBModel.FK__notificat__Recei__6E01572D" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
